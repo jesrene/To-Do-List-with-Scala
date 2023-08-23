@@ -1,5 +1,5 @@
 # To-Do List (Object-Oriented Programming) 
-The Scala-based to-do list system empowers users to efficiently manage their tasks, enabling seamless organization of workflows. This system enables users to incorporate task deadlines, titles, and comprehensive descriptions, enhancing their task management capabilities. 
+The Scala-based to-do list system empowers users to efficiently manage their tasks, enabling seamless organization of workflows. This system enables users to incorporate task deadlines, titles, and comprehensive descriptions, enhancing their task management capabilities. <br />
 
 ## Screenshots of To-Do List System
 Welcome Page <br />
