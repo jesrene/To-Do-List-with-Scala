@@ -2,7 +2,7 @@
 The Scala-based to-do list system empowers users to efficiently manage their tasks, enabling seamless organization of workflows. This system enables users to incorporate task deadlines, titles, and comprehensive descriptions, enhancing their task management capabilities. 
 
 ## Screenshots of To-Do List System
-<br /> Welcome Page <br />
+Welcome Page <br />
 <img src="https://github.com/xyoongi/To-Do-List/assets/86104103/307ab29b-b370-4f14-bc00-613fcf5bd9c0" width="400"/>
 <br /> <br />
 
