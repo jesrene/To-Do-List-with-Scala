@@ -1,0 +1,195 @@
+.background-custom {
+    -fx-background-color: #f2bec2;
+}
+
+.label {
+    -fx-font-size: 14pt;
+    -fx-font-family: "Times New Roman", Times, serif;
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+}
+
+.label .text {
+    -fx-text-fill: black;
+}
+
+.label-bright {
+    -fx-font-size: 40pt;
+    -fx-font-family: "Brush Script MT", Times, cursive;
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+}
+
+.label-header {
+    -fx-font-size: 75pt;
+    -fx-font-family:"Brush Script MT", Times, cursive;
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+}
+
+.table-view {
+    -fx-base: rgba(106, 0, 255, 0.539);
+    -fx-control-inner-background: #cc949b;
+    -fx-background-color:#cc949b;
+    -fx-table-cell-border-color: transparent;
+    -fx-table-header-border-color: transparent;
+    -fx-padding: 5;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-size: 19;
+    -fx-border-width: 0 0 1 0;
+    -fx-background-color: transparent;
+    -fx-border-color: 
+        transparent
+        transparent
+        derive(-fx-base, 80%) 
+        transparent;
+    -fx-border-insets: 0 10 1 0;
+}
+
+.table-view .column-header .label {
+    -fx-font-size: 12pt;
+    -fx-font-family: "Times New Roman", Times, serif;
+    -fx-text-fill: white;
+    -fx-alignment: center-left;
+    -fx-opacity: 1;
+}
+
+.table-view:focused .table-row-cell:filled:focused:selected {
+    -fx-background-color: -fx-focus-color;
+}
+
+.split-pane:horizontal > .split-pane-divider {
+    -fx-border-color: transparent pink transparent pink;
+    -fx-background-color: transparent, derive(#1d1d1d,20%);
+}
+
+.split-pane {
+    -fx-padding: 1 0 0 0;
+}
+
+/*css for menu bar (root)*/
+.menu-bar {
+    -fx-background-color: derive(#cc949b,35%);
+}
+
+.menu-bar .container .menu:openvertically:hover {
+    -fx-background-color: derive(#cc949b,5%);
+}
+
+.context-menu {
+    -fx-background-color: derive(#cc949b,35%);
+}
+
+.context-menu .menu-item:hover{
+    -fx-background-color: derive(#cc949b,5%);
+}
+
+.menu-bar .label {
+    -fx-font-size: 12pt;
+    -fx-font-family:  "Times New Roman", Times, serif;
+    -fx-text-fill: white;
+    -fx-padding: 3px 0px 3px 20px;
+    -fx-opacity: 0.9;
+}
+
+.menu .left-container {
+    -fx-background-color: yellow;
+}
+
+/*pop up box*/
+.text-field {
+    -fx-font-size: 12pt;
+    -fx-font-family: "Segoe UI Semibold";
+}
+
+/*add/edit/delete button*/
+.button {
+    -fx-padding: 5 10 5 10;   
+    -fx-border-color:#e7e7e7;
+    -fx-border-width: 2;
+    -fx-background-radius: 30;
+    -fx-border-radius:30;
+    -fx-background-color: #cc949b;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 12pt;
+    -fx-text-fill: white;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}
+
+.button:hover {
+    -fx-background-color:white;
+    -fx-text-fill: black;
+    -fx-border-width: 2;
+    -fx-border-color:grey;
+}
+
+.button:pressed, .button:default:hover:pressed {
+  -fx-background-color: white;
+  -fx-text-fill: black;
+}
+
+.button:focused {
+    -fx-border-color: white, white;
+    -fx-border-width: 1, 1;
+    -fx-border-style: solid, segments(1, 1);
+    -fx-border-radius: 0, 0;
+    -fx-border-insets: 1 1 1 1, 0;
+}
+
+.button:disabled, .button:default:disabled {
+    -fx-opacity: 0.8;
+    -fx-background-color: #1d1d1d;
+    -fx-text-fill: white;
+}
+
+.button:default {
+    -fx-background-color: -fx-focus-color;
+    -fx-text-fill: #ffffff;
+}
+
+/*welcome page button*/
+.label-button{
+    -fx-padding: 0 20 0 20;   
+    -fx-border-color: #e2e2e2;
+    -fx-border-width: 2;
+    -fx-background-radius: 30;
+    -fx-border-radius:30;
+    -fx-background-color: #cc949b;
+    -fx-font-family: "Brush Script MT", Times, cursive;
+    -fx-font-size: 26pt;
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;    
+}
+/*for pop up box*/
+.button:default:hover {
+    -fx-background-color: derive(#cc949b,30%);
+}
+
+/*add/edit/delete pop up box*/
+.dialog-pane{
+    -fx-background-color: #f2bec2;
+}
+
+.dialog-pane:header .header-panel{
+    -fx-background-color: #cc949b;
+}
+
+/*radio button in pop up box*/
+.radio-button .text{
+    -fx-font-color: white;
+    -fx-font-family: "Times New Roman", Times, serif;
+    -fx-font-size: 15px;
+}
+
+.date-picker:editable .arrow-button{
+    -fx-background-color: #cc949b;
+
+}
+
